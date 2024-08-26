@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+    <!-- manrope font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- DaisyUI and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .manrope-font{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-primary': '#ABEF5F',
+                'btn-primary2': '#ABEF5F80',
+                'text-grey': '#494949',
+                'text-light-grey': '#737373',
+                'btn-black': '#1C1C1C',
+                'text-black':'#212121',
+
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body class="manrope-font">
+    <!-- Header-Section -->
+     <header class="lg:container mx-auto lg:w-11/12">
+        <!-- navbar-section -->
+         <nav class="pt-2">
+            <div class="navbar flex justify-between items-center ">
+                <div class="navbar-start flex space-x-1 w-[150px]">
+                    <div class="bg-btn-primary w-[24px] h-[24px] p-2 rounded-xl">  
+                  <img  class="h-[10px]" src="assets/up-right-arrow.png" alt="">
+                    </div>
+                  <a class="font-bold text-3xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex justify-center">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class=" text-text-grey font-extrabold">Home</a></li>
+                    <li><a class="font-normal text-text-light-grey">Services</a></li>
+                    <li><a class="font-normal text-text-light-grey">Portfolio</a></li>
+                    <li><a class="font-normal text-text-light-grey">Blogs</a></li>
+                    <li><a class="font-normal text-text-light-grey">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class=" hidden lg:block my-4">
+                    
+                    <div class="inline-block p-3">
+                      <img  class="inline px-1"  src="assets/icons8-search-25.png" alt="">
+                    <img  class="inline"  src="assets/icons8-add-shopping-cart-25.png" alt="">
+                  </div>
+              <a class="btn bg-btn-primary rounded-3xl text-btn-black font-extrabold ">Book Consult<div class="bg-btn-black w-[24px] h-[24px] p-2 rounded-xl">
+                          <img  class="h-[10px]" src="assets/up-right-arrow (1).png" alt="">
+                            </div>
+                  </a>
+                </div>
+                <div tabindex="0" role="button" class="btn lg:hidden rounded-3xl  p-1">
+                  <img src="assets/hamburger (1).png" alt="">
+                </div>
+               </div>
+              </nav>
+              <!-- banner-section -->
+               <div class="flex flex-col justify-center items-center gap-y-6">
+                <div>
+                  <img src="assets/banner.png" alt="">
+                </div>
+                <div>
+                  <h1 class="text-center text-6xl text-text-black  font-extrabold mb-24px">A barn house of this design has a striking appearance</h1></div>
+                 <div><p class="text-center text-base font-medium text-text-grey">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p></div>
+                  <div class="text-center">
+                    <a class="btn bg-btn-primary2 rounded-3xl font-bold">View details<div class="bg-btn-primary w-[24px] h-[24px] p-2 rounded-xl">
+                      <img  class="h-[10px]" src="assets/up-right-arrow (1).png" alt="">
+                        </div></a>
+                  </div>
+               </div>
+     </header>
+     <!-- main-section -->
+      <main></main>
+      <!-- footer-section -->
+       <footer></footer>
+</body>
+</html>
