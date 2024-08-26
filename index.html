@@ -24,7 +24,9 @@
                 clifford: '#da373d',
                 'btn-primary': '#ABEF5F',
                 'btn-primary2': '#ABEF5F80',
+                'btn-secondary': '#FFFFFF',
                 'text-grey': '#494949',
+                'text-light': '#737373',
                 'text-light-grey': '#737373',
                 'btn-black': '#1C1C1C',
                 'text-black':'#212121',
@@ -38,9 +40,9 @@
 </head>
 <body class="manrope-font">
     <!-- Header-Section -->
-     <header class="lg:container mx-auto lg:w-11/12">
+     <header class=" bg-gradient-to-t from-white to-slate-100">
         <!-- navbar-section -->
-         <nav class="pt-2">
+         <nav class="pt-2 lg:container mx-auto lg:w-11/12">
             <div class="navbar flex justify-between items-center ">
                 <div class="navbar-start flex space-x-1 w-[150px]">
                     <div class="bg-btn-primary w-[24px] h-[24px] p-2 rounded-xl">  
@@ -74,7 +76,7 @@
                </div>
               </nav>
               <!-- banner-section -->
-               <div class="flex flex-col justify-center items-center gap-y-6">
+               <div class="flex flex-col justify-center items-center gap-y-6 lg:container mx-auto lg:w-11/12">
                 <div>
                   <img src="assets/banner.png" alt="">
                 </div>
@@ -89,7 +91,33 @@
                </div>
      </header>
      <!-- main-section -->
-      <main></main>
+      <main>
+        <div class="bg-base-200  my-12">
+          <img  class=" hidden lg:block origin-center rotate-10 w-[120px] pl-8 pt-4 pb-2 "  src="assets/Vector.png" alt="">
+           <div class=" lg:flex lg:container  mx-auto lg:w-11/12 lg:gap-10">
+            <div>
+              <button class="btn rounded-3xl bg-btn-secondary w-[120px] text-text-grey text-xs mt-1 mb-4  lg:ml-0 ml-36"><img  class="h-[20px]" src="assets/icons8-right-50.png" alt="">About Us</button>
+                <h1 class="text-4xl font-black mb-4 text-center lg:text-left">We design thoughtful, <br>liveable spaces</h1>
+                <p class="text-xs font-medium mb-6 text-center lg:text-left">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             <div class="p-2">
+              <div class="flex gap-4 p-5 bg-btn-secondary rounded-2xl mb-4">
+                <img  src="assets/commercial.png" alt="">
+                <div class="w-2/3"><h3 class="text-xl font-extrabold text-text-grey mb-4">Commercial</h3><p class="text-sm font-medium text-text-light-grey">The barn house captivates with its blend of rustic charm and modern.</p></div>
+              </div>
+              <div class="flex gap-4 p-5  bg-btn-secondary rounded-2xl">
+                <img  src="assets/residential.png" alt="">
+                <div class="w-2/3"><h3 class="text-xl font-extrabold text-text-grey mb-4">Residential</h3><p class="text-sm font-medium text-text-light-grey">The barn house captivates with its blend of rustic charm and modern.</p></div>
+              </div>
+             </div>
+
+            </div>
+            <div class="mb-10 mt-4">
+              <img src="assets/Rectangle.png" alt="">
+            </div>
+           </div>
+           
+        </div>
+      </main>
       <!-- footer-section -->
        <footer></footer>
 </body>
